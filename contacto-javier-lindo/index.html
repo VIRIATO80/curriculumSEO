@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contacta conmigo- Full Stack Javier Lindo</title>
+    <meta name="description" content="Si quieres contactar con Javier Lindo porque necesitas de algún trabajo desarrollado en Java o 
+    en Javascript, rellena este formulario" >    
+    <meta name="robots"  content="index,follow"  />
+    <meta name="language" content="es">
+    <meta name="content-language" content="ES">
+    <link rel="canonical" href="http://padme.rockstardevops.com/contacto-javier-lindo/" />
+    <meta name="google-site-verification" content="SijRSSAQahpjC25HBmKIOtnsN2n3gw0y-C2eejhGpOQ" />
+    <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+
+    <meta property="og:site_name" content="JavierLindo"/>
+    <meta data-ue-u="og:description" property="og:description" content="Javier Lindo, Ingeniero informático con más de 10 años 
+    de experiencia se dedica al desarrollo de aplicaciones web con un marcado perfil Full Stack."/>
+    <meta data-ue-u="og:image" property="og:image" content="http://padme.rockstardevops.com/images/javier-lindo.jpg"/>  
+    <meta data-ue-u="og:title" property="og:title" content="Desarrollador Web Full Stack - Javier Lindo"/>
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@VIRIAT0" />
+    <meta name="twitter:title" content="Desarrollador Web Full Stack - Javier Lindo" />
+    <meta name="twitter:description" content="Javier Lindo, Ingeniero informático con más de 10 años 
+    de experiencia se dedica al desarrollo de aplicaciones web con un marcado perfil Full Stack." />
+    <meta name="twitter:image" content="http://padme.rockstardevops.com/images/javier-lindo.jpg" />
+
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="../styles/style.css">
+    	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-99015057-2"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-99015057-2');
+	</script>	
+</head>
+<body>
+    <!--Menú navegación-->
+    <nav class="navbar" >
+            <ul class="navbar-list">
+                <li id="portada-menu" class="navbar-item">
+                    <a href="http://padme.rockstardevops.com/" title="Portada">Portada</a>
+                </li>
+                <li id="quien-soy-menu" class="navbar-item">
+                    <a href="http://padme.rockstardevops.com/quien-es-javier-lindo/" title="Quien soy">Quien soy</a>
+                </li>
+                <li id="estudios-menu" class="navbar-item">
+                    <a href="http://padme.rockstardevops.com/estudios-y-formacion-ingenieria-informatica/" title="Estudios">Estudios</a>                
+                </li>
+                <li id="experiencia-menu" class="navbar-item">
+                    <a href="http://padme.rockstardevops.com/experiencia-profesional-full-stack/"  title="Experiencia">Experiencia</a>
+                </li>
+                <li id="sobremi-menu" class="navbar-item">
+                    <a href="http://padme.rockstardevops.com/motivacion-filosofia-tecnologica/" title="Sobre mi">Sobre m&iacute;</a>
+                </li>
+                <li id="contacto-menu" class="navbar-item active">
+                    <a href="http://padme.rockstardevops.com/contacto-javier-lindo/" title="Contacto">Contacto</a>
+                </li>
+            </ul>
+     </nav>
+
+    <!--Cuerpo de la web-->
+    <main class="container">
+        <!--Sección contacto-->
+        <section id="contacto" >
+            <div class="section-header" >
+                <h1>Formulario de contacto</h1>
+            </div>
+            <!--Formulario de contacto-->
+            <form name="contactoForm" id="contactoForm" method="post">
+            <div class="row-flex-center bottom-line"> 
+                <div>
+                        <div class="form-row">
+                        <label for="nombre">Nombre(*):</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Nombre" required>
+                        </div>
+                        <div class="form-row" >
+                        <label for="apellidos">Apellidos:</label>
+                        <input type="text" id="apellidos" name="apellidos" placeholder="Apellidos" >
+                    </div>
+                    <div class="form-row">
+                        <label for="email">Email(*):</label>
+                        <input type="email" id="email" name="email" placeholder="tu@email.es"
+                        pattern="[A-Za-z0-9\.\+]+@[A-Za-z0-9]+\.[A-Za-z0-9\.]+" required>
+                    </div>
+                    <div class="form-row">
+                        <label for="telefono">Teléfono(*):</label>
+                        <input type="tel" id="telefono" name="telefono" placeholder="Telefóno" pattern="^[9|6|7][0-9]{8}$" required>
+                    </div>                                                   
+                </div>    
+                <div>
+                    <div class="form-row">
+                        <label for="mensaje">¿Qué necesitas?</label>
+                        <textarea id="mensaje" name="mensaje"  rows="7" cols="30" placeholder="Aquí va tu mensaje" ></textarea>
+                    </div>
+                    <div class="form-row">
+                        <label for="motivo">¿Cómo me conociste?</label>
+                        <select  id="motivo" name="motivo">
+                                <option value="" selected >Selecciona una opción</option>
+                                <option value="buscador" >En Internet</option>
+                                <option value="linkedin" >En Linkedin</option>
+                                <option value="blog" >Leyendo tu blog</option>
+                                <option value="otro" >Otros</option>
+                        </select>
+                    </div>
+                    <div id="inputOculto" class="form-row oculto">
+                        <label for="otros">¿Dónde?</label>
+                        <input type="text" id="otros" name="otros" placeholder="Escribe lugar" >
+                    </div>
+                </div>                 
+            </div>
+            <div class="centro margen-posterior" >
+                <input id="enviar" type="submit" value="Enviar">
+            </div>                   
+            </form> 
+        </section>
+    </main>
+    <!--Pie de página-->
+    <footer class="footer">
+        <div>
+            2018 - <cite>Javier Lindo Paredes</cite>
+        </div>
+    </footer>
+    <script src="../js/form-min.js" ></script>      
+</body>
+</html>
