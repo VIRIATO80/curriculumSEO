@@ -1,5 +1,4 @@
-# Curriculum con elementos SEO
+# Curriculum con SEO mejorado
 
-Url: http://http://padme.rockstardevops.com/
 
-Análisis SEO: analisisSEO.pdf
+El documento de análisis SEO (analisisSEO.pdf) recoge todas las mejoras que se han introducido para posicionar mejor el CV en los buscadores.
